@@ -1,0 +1,95 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.contenedor {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el encabezado */
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #333;
+}
+
+.perfil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Estilos para las secciones */
+.seccion {
+    margin-top: 20px;
+}
+
+.seccion h2 {
+    border-bottom: 2px solid #555;
+    padding-bottom: 5px;
+}
+
+.puesto, .educacion {
+    margin-bottom: 15px;
+}
+
+.empresa, .institucion {
+    font-style: italic;
+    color: #777;
+}
+
+.fechas {
+    font-size: 0.9em;
+    color: #999;
+}
+
+/* Estilos para listas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.icono {
+    margin-right: 5px;
+}
+
+.lista-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.habilidad {
+    background-color: #ddd;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 2px solid #333;
+    font-size: 0.8em;
+    color: #666;
+}
+
+/* Estilos para responsive design */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+}
